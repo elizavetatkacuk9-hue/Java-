@@ -1,5 +1,12 @@
 package homework.h06;
+import java.util.Arrays;
+public class T1 { public boolean isAnagram(String s, String t) { if (s.length() != t.length()) { return false; }
+    char[] sArray = s.toCharArray();
+    char[] tArray = t.toCharArray();
 
-// base
-// https://leetcode.com/problems/reverse-words-in-a-string-iii/
-public class T1 {}
+    Arrays.sort(sArray);
+    Arrays.sort(tArray);
+
+    return Arrays.equals(sArray, tArray);
+}
+}

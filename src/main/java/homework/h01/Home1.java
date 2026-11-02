@@ -1,4 +1,3 @@
 package homework.h01;
 
-public class Home1 {
-}
+public class Home1 {}

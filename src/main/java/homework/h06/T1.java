@@ -1,6 +1,12 @@
 package homework.h06;
+
 import java.util.Arrays;
-public class T1 { public boolean isAnagram(String s, String t) { if (s.length() != t.length()) { return false; }
+
+public class T1 {
+  public boolean isAnagram(String s, String t) {
+    if (s.length() != t.length()) {
+      return false;
+    }
     char[] sArray = s.toCharArray();
     char[] tArray = t.toCharArray();
 
@@ -8,5 +14,5 @@ public class T1 { public boolean isAnagram(String s, String t) { if (s.length() 
     Arrays.sort(tArray);
 
     return Arrays.equals(sArray, tArray);
-}
+  }
 }

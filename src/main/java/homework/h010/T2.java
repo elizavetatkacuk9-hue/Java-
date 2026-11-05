@@ -1,4 +1,6 @@
-package homework.h10;
+package homework.h010;
+
+import java.util.List;
 
 // https://leetcode.com/problems/reverse-string/
 public class T2 {
@@ -12,5 +14,9 @@ public class T2 {
             left++;
             right--;
         }
+    }
+
+    public List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
+        return null;
     }
 }

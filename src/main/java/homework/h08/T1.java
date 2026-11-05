@@ -1,4 +1,4 @@
-package h08;
+package homework.h08;
 
 public class T1 {
   public static int findMaxConsecutiveOnes(int[] nums) {

@@ -1,3 +1,5 @@
+package homework.h00;
+
 class Solution {
   public int differenceOfSums(int n, int m) {
     int num1 = 0;

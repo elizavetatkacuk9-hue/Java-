@@ -1,4 +1,4 @@
-package homework.h10;
+package homework.h010;
 
 // https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/
 public class T1 {
@@ -12,5 +12,9 @@ public class T1 {
             }
         }
         return sb.charAt(k - 1);
+    }
+
+    public int numIdenticalPairs(int[] nums) {
+        return 0;
     }
 }

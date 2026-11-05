@@ -1,4 +1,4 @@
-package h08;
+package homework.h08;
 
 import java.util.Arrays;
 import java.util.List;

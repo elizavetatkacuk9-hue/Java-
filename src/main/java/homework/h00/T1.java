@@ -1,3 +1,5 @@
+package homework.h00;
+
 class Solution {
   public double average(int[] salary) {
     int min = salary[0];

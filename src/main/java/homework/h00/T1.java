@@ -1,6 +1,6 @@
 package homework.h00;
 
-class Solution {
+class T1 {
   public double average(int[] salary) {
     int min = salary[0];
     int max = salary[0];

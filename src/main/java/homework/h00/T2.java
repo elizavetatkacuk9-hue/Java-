@@ -1,6 +1,6 @@
 package homework.h00;
 
-class Solution {
+class T2 {
   public int differenceOfSums(int n, int m) {
     int num1 = 0;
     int num2 = 0;
